@@ -14,7 +14,7 @@ public class Weather {
 
     public static String getWeather(String message, Model model) throws IOException {
 
-        URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + message +"&units=metric&appid=c7a92425f8f6857224ae65371fd404e5");
+        URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + message +"&units=metric&appid=datafrom Openwether");
         Scanner in = new Scanner((InputStream) url.getContent());
         String result = "";
         System.out.println("result " + message + " "+result);
