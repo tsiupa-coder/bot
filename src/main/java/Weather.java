@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class Weather {
 
-//d2421947acadf66e4a6344cda96c693f
 
     public static String getWeather(String message, Model model) throws IOException {
 
